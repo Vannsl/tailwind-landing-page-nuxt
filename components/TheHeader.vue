@@ -92,12 +92,16 @@ export default {
   },
   mounted() {
     this.scrollY = window.scrollY
-    document.addEventListener('click', this.onClick)
-    document.addEventListener('scroll', this.onScroll)
+    if (process.browser) {
+      document.addEventListener('click', this.onClick)
+      document.addEventListener('scroll', this.onScroll)
+    }
   },
   beforeDestroy() {
-    document.removeEventListener('click', this.onClick, true)
-    document.removeEventListener('scroll', this.onScroll, true)
+    if (process.browser) {
+      document.removeEventListener('click', this.onClick, true)
+      document.removeEventListener('scroll', this.onScroll, true)
+    }
   }
 }
 </script>
