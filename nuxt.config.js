@@ -1,5 +1,5 @@
 export default {
-  mode: 'universal',
+  mode: 'SPA',
   /*
    ** Headers of the page
    */
@@ -39,6 +39,9 @@ export default {
    ** Nuxt.js modules
    */
   modules: ['@nuxtjs/svg'],
+  purgeCSS: {
+    whitelist: ['hidden']
+  },
   /*
    ** Build configuration
    */
