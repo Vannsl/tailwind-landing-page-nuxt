@@ -40,7 +40,8 @@ export default {
    */
   modules: ['@nuxtjs/svg'],
   purgeCSS: {
-    whitelist: ['hidden']
+    whitelist: ['hidden'],
+    testWhitelistPatterns = [/md:w-[1-6]/$/]
   },
   /*
    ** Build configuration

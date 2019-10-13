@@ -33,7 +33,10 @@ export default {
   props: {
     rows: {
       type: Number,
-      required: true
+      required: true,
+      validator: value => {
+        return value >= 1 && value <= 6
+      }
     },
     action: {
       type: String,
