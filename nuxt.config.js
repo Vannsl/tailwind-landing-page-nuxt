@@ -1,5 +1,5 @@
 export default {
-  mode: 'SPA',
+  mode: 'universal',
   /*
    ** Headers of the page
    */
@@ -41,7 +41,7 @@ export default {
   modules: ['@nuxtjs/svg'],
   purgeCSS: {
     whitelist: ['hidden'],
-    testWhitelistPatterns = [/md:w-[1-6]/]
+    whitelistPatterns: [/md:w-[1-6]/]
   },
   /*
    ** Build configuration
