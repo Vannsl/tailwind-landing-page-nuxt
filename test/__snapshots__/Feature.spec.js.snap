@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Feature renders properly 1`] = `
+"<div class=\\"feature left\\"><div class=\\"feature-image\\"></div> <div class=\\"feature-content\\"><h3>Lorem Ipsum</h3> <p>
+      Lorem Ipsum dolor sit
+      <br> <br>Images from:
+      <a href=\\"https://undraw.co/\\">undraw.co</a></p></div></div>"
+`;

@@ -24,24 +24,24 @@ $ npm run generate
 ```
 
 ## Test Coverage
-| File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s |
-| ----------------------- | ------- | -------- | ------- | ------- | ----------------- |
-| All files               | 100     | 100      | 100     | 100     |                   |
-| components              | 100     | 100      | 100     | 100     |                   |
-| CallToAction.vue        | 100     | 100      | 100     | 100     |                   |
-| CallToActionContent.vue | 100     | 100      | 100     | 100     |                   |
-| FeatureLeft.vue         | 100     | 100      | 100     | 100     |                   |
-| FeatureRight.vue        | 100     | 100      | 100     | 100     |                   |
-| Features.vue            | 100     | 100      | 100     | 100     |                   |
-| Hero.vue                | 100     | 100      | 100     | 100     |                   |
-| HeroContent.vue         | 100     | 100      | 100     | 100     |                   |
-| Logo.vue                | 100     | 100      | 100     | 100     |                   |
-| Price.vue               | 100     | 100      | 100     | 100     |                   |
-| PriceHighlighted.vue    | 100     | 100      | 100     | 100     |                   |
-| Prices.vue              | 100     | 100      | 100     | 100     |                   |
-| TeaserColumn.vue        | 100     | 100      | 100     | 100     |                   |
-| Teasers.vue             | 100     | 100      | 100     | 100     |                   |
-| TheFooter.vue           | 100     | 100      | 100     | 100     |                   |
-| TheHeader.vue           | 100     | 100      | 100     | 100     |                   |
-| pages                   | 100     | 100      | 100     | 100     |                   |
-| index.vue               | 100     | 100      | 100     | 100     |                   |
+
+| File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s  |
+| ----------------------- | ------- | -------- | ------- | ------- | ------------------ |
+| All files               | 65.12   | 75       | 60.87   | 65.12   |                    |
+| components              | 59.46   | 75       | 59.09   | 59.46   |                    |
+| CallToAction.vue        | 100     | 100      | 100     | 100     |                    |
+| CallToActionContent.vue | 100     | 100      | 100     | 100     |                    |
+| Feature.vue             | 100     | 100      | 100     | 100     |                    |
+| Features.vue            | 100     | 100      | 100     | 100     |                    |
+| Hero.vue                | 100     | 100      | 100     | 100     |                    |
+| HeroContent.vue         | 100     | 100      | 100     | 100     |                    |
+| Logo.vue                | 100     | 100      | 100     | 100     |                    |
+| PriceCard.vue           | 100     | 50       | 100     | 100     | 1                  |
+| Prices.vue              | 100     | 100      | 100     | 100     |                    |
+| TeaserCard.vue          | 100     | 100      | 100     | 100     |                    |
+| Teasers.vue             | 100     | 100      | 100     | 100     |                    |
+| TheFooter.vue           | 0       | 100      | 0       | 0       | 1,74               |
+| TheHeader.vue           | 0       | 100      | 0       | 0       | ... 67,68,69,72,73 |
+| TheTitle.vue            | 100     | 100      | 100     | 100     |                    |
+| pages                   | 100     | 100      | 100     | 100     |                    |
+| index.vue               | 100     | 100      | 100     | 100     |                    |

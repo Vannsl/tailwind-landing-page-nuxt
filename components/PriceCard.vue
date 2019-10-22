@@ -13,7 +13,7 @@
         <span>{{ priceLabel }}</span>
       </div>
       <div class="price-action">
-        <button class="gradient" ;>Sign Up</button>
+        <button class="gradient">Sign Up</button>
       </div>
     </div>
   </div>

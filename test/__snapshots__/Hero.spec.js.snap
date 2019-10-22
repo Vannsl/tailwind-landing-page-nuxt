@@ -1,3 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Hero renders properly 1`] = `"<div><hero-content-stub></hero-content-stub> <div class=\\"relative -mt-12 lg:-mt-24\\"><img src=\\"~assets/img/hero-wave.svg\\" alt=\\"\\"></div></div>"`;
+exports[`Hero renders properly 1`] = `"<div class=\\"hero\\"><hero-content-stub></hero-content-stub> <div class=\\"hero-wave\\"><img src=\\"~assets/img/hero-wave.svg\\" alt=\\"\\"></div></div>"`;

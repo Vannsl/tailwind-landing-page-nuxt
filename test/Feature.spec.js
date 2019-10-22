@@ -1,8 +1,8 @@
 import { shallowMount } from '@vue/test-utils'
-import FeatureRight from '@/components/FeatureRight'
+import Feature from '@/components/Feature'
 
 const factory = () => {
-  return shallowMount(FeatureRight, {
+  return shallowMount(Feature, {
     propsData: {
       headline: 'Lorem Ipsum',
       content: 'Lorem Ipsum dolor sit'
@@ -10,7 +10,7 @@ const factory = () => {
   })
 }
 
-describe('FeatureRight', () => {
+describe('Feature', () => {
   it('is a Vue instance', () => {
     const wrapper = factory()
     expect(wrapper.isVueInstance()).toBeTruthy()

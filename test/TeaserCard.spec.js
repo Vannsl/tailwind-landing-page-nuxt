@@ -1,16 +1,15 @@
 import { shallowMount } from '@vue/test-utils'
-import TeaserColumn from '@/components/TeaserColumn'
+import TeaserCard from '@/components/TeaserCard'
 
 const factory = () => {
-  return shallowMount(TeaserColumn, {
+  return shallowMount(TeaserCard, {
     propsData: {
-      rows: 3,
       action: 'Action'
     }
   })
 }
 
-describe('TeaserColumn', () => {
+describe('TeaserCard', () => {
   it('is a Vue instance', () => {
     const wrapper = factory()
     expect(wrapper.isVueInstance()).toBeTruthy()
@@ -19,11 +18,6 @@ describe('TeaserColumn', () => {
   it('renders properly', () => {
     const wrapper = factory()
     expect(wrapper.html()).toMatchSnapshot()
-  })
-
-  it('has the property rows', () => {
-    const wrapper = factory()
-    expect(wrapper.props('rows')).toBe(3)
   })
 
   it('has the property action', () => {

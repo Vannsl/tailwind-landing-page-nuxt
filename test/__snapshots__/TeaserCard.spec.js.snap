@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TeaserCard renders properly 1`] = `"<div class=\\"teaser-card\\"><div class=\\"teaser-content\\"><a href=\\"#\\"><p class=\\"overline\\"></p> <div class=\\"headline\\"></div> <p class=\\"content\\"></p></a></div> <div class=\\"teaser-action\\"><div><button class=\\"gradient\\">Action</button></div></div></div>"`;

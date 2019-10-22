@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PriceCard renders properly 1`] = `
+"<div class=\\"price-card highlighted\\"><div class=\\"price-content\\"><div class=\\"price-name\\">Pro</div> <div class=\\"seperator gradient\\"></div> <ul><li>Thing</li><li>Thing</li><li>Thing</li><li>Thing</li></ul></div> <div class=\\"pricing\\"><div class=\\"price\\">
+      29,99 €
+      <span>for one user</span></div> <div class=\\"price-action\\"><button class=\\"gradient\\">Sign Up</button></div></div></div>"
+`;

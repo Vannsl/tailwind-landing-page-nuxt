@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TheTitle renders properly 1`] = `"<div class=\\"the-title\\"><h1></h1> <div class=\\"line-wrapper\\"><div class=\\"line gradient\\"></div></div></div>"`;

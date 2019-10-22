@@ -1,18 +1,19 @@
 import { shallowMount } from '@vue/test-utils'
-import Price from '@/components/Price'
+import PriceCard from '@/components/PriceCard'
 
 const factory = () => {
-  return shallowMount(Price, {
+  return shallowMount(PriceCard, {
     propsData: {
       name: 'Pro',
-      list: ['Thing', 'Thing', 'Thing', 'Thing'],
+      features: ['Thing', 'Thing', 'Thing', 'Thing'],
       price: '29,99 €',
-      limited: false
+      priceLabel: 'for one user',
+      highlighted: true
     }
   })
 }
 
-describe('Prices', () => {
+describe('PriceCard', () => {
   it('is a Vue instance', () => {
     const wrapper = factory()
     expect(wrapper.isVueInstance()).toBeTruthy()
@@ -28,9 +29,14 @@ describe('Prices', () => {
     expect(wrapper.props('name')).toBe('Pro')
   })
 
-  it('has the property list', () => {
+  it('has the property features', () => {
     const wrapper = factory()
-    expect(wrapper.props('list')).toEqual(['Thing', 'Thing', 'Thing', 'Thing'])
+    expect(wrapper.props('features')).toEqual([
+      'Thing',
+      'Thing',
+      'Thing',
+      'Thing'
+    ])
   })
 
   it('has the property price', () => {
@@ -38,8 +44,13 @@ describe('Prices', () => {
     expect(wrapper.props('price')).toBe('29,99 €')
   })
 
-  it('has the property limited', () => {
+  it('has the property priceLabel', () => {
     const wrapper = factory()
-    expect(wrapper.props('limited')).toBe(false)
+    expect(wrapper.props('priceLabel')).toBe('for one user')
+  })
+
+  it('has the property highlighted', () => {
+    const wrapper = factory()
+    expect(wrapper.props('highlighted')).toBe(true)
   })
 })
