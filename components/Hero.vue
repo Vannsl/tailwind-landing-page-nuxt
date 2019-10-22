@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="hero">
     <hero-content />
-    <div class="relative -mt-12 lg:-mt-24">
+    <div class="hero-wave">
       <img src="~assets/img/hero-wave.svg" alt />
     </div>
   </div>
@@ -17,3 +17,15 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.hero-wave {
+  @apply relative -mt-12;
+}
+
+@screen lg {
+  .hero-wave {
+    @apply -mt-24;
+  }
+}
+</style>

@@ -1,6 +1,6 @@
 
 <template>
-  <div>
+  <div class="call-to-action">
     <img src="~assets/img/wave-top.svg" alt />
     <call-to-action-content />
   </div>

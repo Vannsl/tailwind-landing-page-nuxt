@@ -1,22 +1,19 @@
 <template>
-  <section class="bg-gray-100 py-8">
-    <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
-      <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">Pricing</h1>
-      <div class="w-full mb-4">
-        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-      </div>
-      <div class="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
-        <price name="Free" price="£0" :limited="true" :list="listFree" />
-        <price-highlighted name="Basic" price="x.99" :limited="false" :list="listBasic" />
-        <price name="Pro" price="£xx.99" :limited="false" :list="listPro" />
+  <section class="prices">
+    <div class="container">
+      <the-title label="Pricing" />
+      <div class="prices-row">
+        <price-card name="Free" price="£0" priceLabel="for one user" :features="listFree" />
+        <price-card name="Basic" price="x.99" :features="listBasic" :highlighted="true" />
+        <price-card name="Pro" price="£xx.99" :features="listPro" />
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import Price from '@/components/Price'
-import PriceHighlighted from '@/components/PriceHighlighted'
+import PriceCard from '@/components/PriceCard'
+import TheTitle from '@/components/TheTitle'
 
 export default {
   name: 'Prices',
@@ -28,8 +25,28 @@ export default {
     }
   },
   components: {
-    price: Price,
-    'price-highlighted': PriceHighlighted
+    'price-card': PriceCard,
+    'the-title': TheTitle
   }
 }
 </script>
+
+<style scoped>
+.prices {
+  @apply bg-gray-100 py-8;
+}
+
+.prices > .container {
+  @apply mx-auto px-2 pt-4 pb-12 text-gray-800;
+}
+
+.prices-row {
+  @apply flex flex-col justify-center pt-12 my-12;
+}
+
+@screen sm {
+  .prices-row {
+    @apply flex-row my-4;
+  }
+}
+</style>

@@ -1,42 +1,57 @@
 <template>
-  <section class="bg-white border-b py-8">
-    <div class="container mx-auto flex flex-wrap pt-4 pb-12">
-      <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">Title</h1>
-      <div class="w-full mb-4">
-        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+  <section class="teasers">
+    <div class="container">
+      <the-title label="Teaser" />
+      <div class="teaser-row">
+        <teaser-card action="Action">
+          <template v-slot:overline>xGETTING STARTED</template>
+          <template v-slot:headline>Lorem ipsum dolor sit amet</template>
+          <template
+            v-slot:content
+          >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</template>
+        </teaser-card>
+        <teaser-card action="Action">
+          <template v-slot:overline>xGETTING STARTED</template>
+          <template v-slot:headline>Lorem ipsum dolor sit amet</template>
+          <template
+            v-slot:content
+          >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</template>
+        </teaser-card>
+        <teaser-card action="Action">
+          <template v-slot:overline>xGETTING STARTED</template>
+          <template v-slot:headline>Lorem ipsum dolor sit amet</template>
+          <template
+            v-slot:content
+          >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</template>
+        </teaser-card>
       </div>
-      <teaser-column :rows="3" action="Action">
-        <template v-slot:overline>xGETTING STARTED</template>
-        <template v-slot:headline>Lorem ipsum dolor sit amet</template>
-        <template
-          v-slot:content
-        >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</template>
-      </teaser-column>
-      <teaser-column :rows="3" action="Action">
-        <template v-slot:overline>xGETTING STARTED</template>
-        <template v-slot:headline>Lorem ipsum dolor sit amet</template>
-        <template
-          v-slot:content
-        >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</template>
-      </teaser-column>
-      <teaser-column :rows="3" action="Action">
-        <template v-slot:overline>xGETTING STARTED</template>
-        <template v-slot:headline>Lorem ipsum dolor sit amet</template>
-        <template
-          v-slot:content
-        >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</template>
-      </teaser-column>
     </div>
   </section>
 </template>
 
 <script>
-import TeaserColumn from '@/components/TeaserColumn'
+import TheTitle from '@/components/TheTitle'
+import TeaserCard from '@/components/TeaserCard'
 
 export default {
   name: 'Teasers',
   components: {
-    'teaser-column': TeaserColumn
+    'teaser-card': TeaserCard,
+    'the-title': TheTitle
   }
 }
 </script>
+
+<style scoped>
+.teasers {
+  @apply bg-white border-b py-8;
+}
+
+.teasers > .container {
+  @apply mx-auto pt-4 pb-12;
+}
+
+.teaser-row {
+  @apply flex flex-wrap;
+}
+</style>

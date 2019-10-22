@@ -1,35 +1,43 @@
 <template>
-  <section class="bg-white border-b py-8">
-    <div class="container max-w-5xl mx-auto m-8">
-      <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">Title</h1>
-      <div class="w-full mb-4">
-        <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-      </div>
-      <feature-right
+  <section class="features">
+    <div class="container">
+      <the-title label="Features" />
+      <feature
         headline="Lorem ipsum dolor sit amet"
         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula."
       >
         <img src="~assets/img/travel-booking.svg" alt slot="svg" />
-      </feature-right>
-      <feature-left
+      </feature>
+      <feature
+        :isLeft="false"
         headline="Lorem ipsum dolor sit amet"
         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula."
       >
         <img src="~assets/img/connected-world.svg" alt slot="svg" />
-      </feature-left>
+      </feature>
     </div>
   </section>
 </template>
 
 <script>
-import FeatureRight from '@/components/FeatureRight'
-import FeatureLeft from '@/components/FeatureLeft'
+import TheTitle from '@/components/TheTitle'
+import Feature from '@/components/Feature'
 
 export default {
   name: 'Features',
   components: {
-    'feature-right': FeatureRight,
-    'feature-left': FeatureLeft
+    feature: Feature,
+    'the-title': TheTitle
   }
 }
 </script>
+
+<style scoped>
+.features {
+  @apply bg-white border-b py-8;
+}
+
+.features > .container {
+  @apply max-w-5xl mx-auto m-8;
+}
+</style>

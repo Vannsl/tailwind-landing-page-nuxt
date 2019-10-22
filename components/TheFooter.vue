@@ -1,100 +1,69 @@
 <template>
-  <footer class="bg-white">
-    <div class="container mx-auto px-8">
-      <div class="w-full flex flex-col md:flex-row py-6">
-        <div class="flex-1 mb-6">
-          <logo />
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="brand">
+          <a href="#">
+            <logo />&nbsp;LANDING
+          </a>
         </div>
 
-        <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">Links</p>
-          <ul class="list-reset mb-6">
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >FAQ</a>
+        <div class="link-group">
+          <p>Links</p>
+          <ul>
+            <li>
+              <a href="#">FAQ</a>
             </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Help</a>
+            <li>
+              <a href="#">Help</a>
             </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Support</a>
+            <li>
+              <a href="#">Support</a>
             </li>
           </ul>
         </div>
-        <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">Legal</p>
-          <ul class="list-reset mb-6">
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Terms</a>
+        <div class="link-group">
+          <p>Legal</p>
+          <ul>
+            <li>
+              <a href="#">Terms</a>
             </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Privacy</a>
+            <li>
+              <a href="#">Privacy</a>
             </li>
           </ul>
         </div>
-        <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">Social</p>
-          <ul class="list-reset mb-6">
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Facebook</a>
+        <div class="link-group">
+          <p>Social</p>
+          <ul>
+            <li>
+              <a href="#">Facebook</a>
             </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Linkedin</a>
+            <li>
+              <a href="#">Linkedin</a>
             </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Twitter</a>
+            <li>
+              <a href="#">Twitter</a>
             </li>
           </ul>
         </div>
-        <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">Company</p>
-          <ul class="list-reset mb-6">
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Official Blog</a>
+        <div class="link-group">
+          <p>Company</p>
+          <ul>
+            <li>
+              <a href="#">Official Blog</a>
             </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >About Us</a>
+            <li>
+              <a href="#">About Us</a>
             </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >Contact</a>
+            <li>
+              <a href="#">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </div>
-
+    <!-- is this copyright correct? -->
     <a
       href="https://www.freepik.com/free-photos-vectors/background"
     >Background vector created by freepik - www.freepik.com</a>
@@ -102,7 +71,7 @@
 </template>
 
 <script>
-import Logo from '@/components/Logo'
+import Logo from '@/assets/img/logo.svg?inline'
 
 export default {
   name: 'TheFooter',
@@ -111,3 +80,81 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+footer {
+  @apply bg-white;
+}
+
+footer > .container {
+  @apply mx-auto px-8;
+}
+
+footer > .container > .row {
+  @apply w-full flex flex-col py-6;
+}
+
+@screen md {
+  footer > .container > .row {
+    @apply flex-row;
+  }
+}
+
+.brand {
+  @apply flex-1 mb-6;
+}
+
+.brand a {
+  @apply no-underline font-bold text-2xl text-orange-600;
+}
+
+.brand:hover a {
+  @apply no-underline;
+}
+
+@screen lg {
+  .brand a {
+    @apply text-4xl;
+  }
+}
+
+.brand svg {
+  @apply h-8 fill-current inline;
+}
+
+.link-group {
+  @apply flex-1;
+}
+
+.link-group p {
+  @apply uppercase text-gray-500;
+}
+
+@screen md {
+  .link-group p {
+    @apply mb-6;
+  }
+}
+
+.link-group ul {
+  @apply mb-6;
+}
+
+.link-group li {
+  @apply mt-2 inline-block mr-2;
+}
+
+@screen md {
+  .link-group li {
+    @apply block mr-0;
+  }
+}
+
+.link-group li a {
+  @apply no-underline text-gray-800;
+}
+
+.link-group li a:hover {
+  @apply underline text-orange-500;
+}
+</style>
