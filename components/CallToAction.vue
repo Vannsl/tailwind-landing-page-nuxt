@@ -1,4 +1,3 @@
-
 <template>
   <div>
     <img src="~assets/img/wave-top.svg" alt />
