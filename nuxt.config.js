@@ -38,7 +38,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/svg'],
+  modules: ['nuxt-svg-loader'],
   purgeCSS: {
     whitelist: ['hidden'],
     whitelistPatterns: [/md:w-[1-6]/]
@@ -52,7 +52,9 @@ export default {
      */
     extend(config, ctx) {
       loaders: {
-        file: { esModule: false }
+        file: {
+          esModule: false
+        }
       }
     }
   }

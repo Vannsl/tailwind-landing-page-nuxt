@@ -15,13 +15,13 @@
         headline="Lorem ipsum dolor sit amet"
         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula."
       >
-        <img src="~assets/img/travel-booking.svg" alt slot="svg" />
+        <img src="~assets/img/travel-booking.svg?inline" alt slot="svg" />
       </feature-right>
       <feature-left
         headline="Lorem ipsum dolor sit amet"
         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula."
       >
-        <img src="~assets/img/connected-world.svg" alt slot="svg" />
+        <img src="~assets/img/connected-world.svg?inline" alt slot="svg" />
       </feature-left>
     </div>
   </section>
