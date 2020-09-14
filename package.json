@@ -17,8 +17,8 @@
     "test:dev": "jest --watch"
   },
   "dependencies": {
-    "@nuxtjs/svg": "^0.1.11",
-    "nuxt": "^2.14.3"
+    "nuxt": "^2.14.3",
+    "nuxt-svg-loader": "^1.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",
