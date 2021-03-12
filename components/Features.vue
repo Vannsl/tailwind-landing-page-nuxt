@@ -13,13 +13,13 @@
       </div>
       <feature-left
         headline="Global checks"
-        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula."
+        content="Check websites and APIs from locations around the world, collect uptime, metrics and monitor server response time. It's a great option for website owners, company owners, or even resellers who work with web projects."
       >
         <img src="~assets/img/connected-world.svg?inline" alt slot="svg" />
       </feature-left>
       <feature-right
         headline="Status pages"
-        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula."
+        content="Statu pages is a great solution for all kinds of companies that want to show their actual page status or incidents to partners or visitors of your website. Just create one add your monitors via our Dashboard or simple APIs."
       >
         <img src="~assets/img/information-tab.svg?inline" alt slot="svg" />
       </feature-right>

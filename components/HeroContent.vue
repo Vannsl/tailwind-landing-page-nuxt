@@ -22,7 +22,7 @@
         </button>-->
       </div>
       <!--Right Col-->
-      <div class="w-full md:w-3/5 py-6 pl-6 text-center">
+      <div class="w-full md:w-3/5 py-6 pl-12 text-center">
         <img class="w-full md:w-4/5 z-50" src="~/assets/img/hero2.svg?inline" alt />
       </div>
     </div>
