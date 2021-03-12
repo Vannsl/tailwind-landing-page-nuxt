@@ -12,7 +12,7 @@
     </div>
 
     <h3 class="my-4 text-3xl leading-tight">
-      It takes literally seconds to set everything up.
+      It takes seconds to set everything up.
     </h3>
 
    <a href="https://dash.statusflare.com">

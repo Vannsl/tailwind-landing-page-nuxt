@@ -1,7 +1,7 @@
 <template>
   <nav :class="headerClassList" class="fixed w-full z-30 top-0">
     <div
-      class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2"
+      class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-4"
     >
       <div class="pl-4 flex items-center">
         <logo :isStickable="true" :isSticky="true" class="h-10 w-auto block" />

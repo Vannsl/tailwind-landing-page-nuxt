@@ -6,7 +6,7 @@
       >
         Website and API monitoring
       </h1>
-      <div class="w-full mb-4">
+      <div class="w-full mb-8">
         <div
           class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
         ></div>
@@ -19,7 +19,7 @@
       </feature-left>
       <feature-right
         headline="Status pages"
-        content="Status pages is a great solution for all kinds of companies that want to show their actual page status or incidents to partners or visitors of your website. Just create one add your monitors via our Dashboard or simple APIs."
+        content="Status pages are a great solution for all kinds of companies that want to show their actual page status or incidents to partners or visitors of your website. Just create one add your monitors via our Dashboard or simple APIs."
       >
         <img src="~assets/img/information-tab.svg?inline" alt slot="svg" />
       </feature-right>
