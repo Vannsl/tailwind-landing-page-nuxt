@@ -44,8 +44,7 @@ export default {
   pwa: {
     manifest: {
       description: 'Monitoring made easy.',
-      name: 'Statusflare',
-      short_name: 'Statusflare',
+      name: 'Statusflare landing page',
       theme_color: '#fe8b4c',
     },
     oneSignal: false,
