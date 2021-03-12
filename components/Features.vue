@@ -13,13 +13,13 @@
       </div>
       <feature-left
         headline="Global checks"
-        content="Check websites and APIs from locations around the world, collect uptime, metrics and monitor server response time. It's a great option for website owners, company owners, or even resellers who work with web projects."
+        content="Check websites and APIs from around the world. Collect uptime, metrics, and monitor server response time. It's a great option for website owners, company owners, or even resellers who work with web projects."
       >
         <img src="~assets/img/connected-world.svg?inline" alt slot="svg" />
       </feature-left>
       <feature-right
         headline="Status pages"
-        content="Status pages are a great solution for all kinds of companies that want to show their actual page status or incidents to partners or visitors of your website. Just create one add your monitors via our Dashboard or simple APIs."
+        content="Status pages are a perfect solution for any orginization that wants to inform its customers about the availability of their services."
       >
         <img src="~assets/img/information-tab.svg?inline" alt slot="svg" />
       </feature-right>

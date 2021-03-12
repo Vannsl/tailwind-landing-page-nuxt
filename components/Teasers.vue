@@ -22,14 +22,14 @@
         <template v-slot:overline>Coming soon</template>
         <template v-slot:headline>Team members</template>
         <template v-slot:content
-          >Add your team members to manage monitors, integrations, or status pages. They’ll be notified via email to get started.</template
+          >Add your team members to manage monitors, integrations, and status pages. They’ll be notified via email to get started.</template
         >
       </teaser-column>
       <teaser-column :rows="3">
         <template v-slot:overline>Coming soon</template>
         <template v-slot:headline>Custom Workers</template>
         <template v-slot:content
-          >Deploy your check workers to monitor internal endpoints. Easy as deploying Lambda, Gitlab job, or Cloudflare Worker.</template
+          >Deploy your check workers to monitor internal endpoints. Easy as deploying a Lambda, Gitlab job, or a Cloudflare Worker.</template
         >
       </teaser-column>
       <teaser-column :rows="3">
@@ -43,7 +43,7 @@
         <template v-slot:overline>&nbsp;</template>
         <template v-slot:headline>REST API</template>
         <template v-slot:content
-          >Access or manage your configuration (monitors, integrations, status pages, etc) via API. Integrate Statusflare into your system.</template
+          >Access or manage your configuration (monitors, integrations, status pages, etc.) via API. Integrate Statusflare into your system.</template
         >
       </teaser-column>
       <teaser-column :rows="3">

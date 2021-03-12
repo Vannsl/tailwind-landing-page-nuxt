@@ -9,10 +9,10 @@
       >
         <p class="uppercase tracking-loose w-full">Do you mind downtime?</p>
         <h1 class="my-4 text-5xl font-bold leading-tight">
-          Monitoring made easy
+          Monitoring made easy.
         </h1>
         <p class="leading-normal text-2xl mb-8">
-          Sit back and relax, we will monitor and notify you about any issues with your website or API.
+          Sit back and relax, we monitor and notify you about any issues with your website or API.
         </p>
 
         <!--<button
