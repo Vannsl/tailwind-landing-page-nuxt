@@ -31,7 +31,7 @@ export default {
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://dash.statusflare.com/og-statusflare-logo.png'
+        content: 'https://www.statusflare.com/og-statusflare-logo.png'
       },
       {
         hid: 'twitter:site',
@@ -56,7 +56,7 @@ export default {
         height: '627',
         type: 'image/png',
       },
-      ogHost: 'https://statusflare.com/',
+      ogHost: 'https://www.statusflare.com/',
     },
   },
   /*
