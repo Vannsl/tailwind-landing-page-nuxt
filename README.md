@@ -1,4 +1,4 @@
-# [Tailwind Toolbox](https://www.tailwindtoolbox.com/) - [Nuxt Version of Landing Page Template](https://www.tailwindtoolbox.com/templates/landing-page)
+# The Statusflare Website
 
 > [LIVE DEMO](https://tailwind-landing-page-nuxt.netlify.com/)
 
