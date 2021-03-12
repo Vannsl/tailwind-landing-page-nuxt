@@ -3,6 +3,7 @@
     <the-header />
     <nuxt />
     <the-footer />
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ab5f3434097042d4a9b45c01ee8b4490", "spa": true}'></script><!-- End Cloudflare Web Analytics -->
   </div>
 </template>
 
