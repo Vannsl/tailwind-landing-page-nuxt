@@ -12,14 +12,15 @@
         ></div>
       </div>
       <div class="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
-        <price name="Free" price="£0" :limited="true" :list="listFree" />
+        <price name="Free" price="$0" :limited="true" :list="listFree" />
+        <price name="Starter" price="$4" :limited="false" :list="listStarter" />
         <price-highlighted
           name="Basic"
-          price="x.99"
+          price="$9"
           :limited="false"
           :list="listBasic"
         />
-        <price name="Pro" price="£xx.99" :limited="false" :list="listPro" />
+        <price name="Pro" price="$25" :limited="false" :list="listPro" />
       </div>
     </div>
   </section>
@@ -33,9 +34,10 @@ export default {
   name: 'Prices',
   data() {
     return {
-      listFree: ['Thing', 'Thing', 'Thing'],
-      listBasic: ['Thing', 'Thing', 'Thing', 'Thing'],
-      listPro: ['Thing', 'Thing', 'Thing', 'Thing', 'Thing']
+      listFree: ['5 minute checks', '3 monitors', '1 integration', '1 status page'],
+      listStarter: ['1 minute checks', '5 monitors', '3 integrations', '2 status pages', '1 team member'],
+      listBasic: ['1 minute checks', '10 monitors', '5 integrations', '5 status pages', '5 team members'],
+      listPro: ['1 minute checks', '25 monitors', '15 integrations', '15 status pages', '15 team members', '1 custom domain'],
     }
   },
   components: {

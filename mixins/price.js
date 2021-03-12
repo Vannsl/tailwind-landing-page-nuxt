@@ -19,7 +19,7 @@ export default {
   },
   computed: {
     pricePer() {
-      return this.limited ? 'for one user' : '/ per user'
+      return this.limited ? '' : '/ per month'
     }
   }
 }
