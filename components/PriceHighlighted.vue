@@ -21,11 +21,13 @@
         <span class="text-base">{{ pricePer }}</span>
       </div>
       <div class="flex items-center justify-center">
+        <a href="https://dash.statusflare.com" class="flex flex-wrap no-underline hover:no-underline">
         <button
           class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
         >
           Sign Up
         </button>
+        </a>
       </div>
     </div>
   </div>

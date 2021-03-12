@@ -11,23 +11,16 @@
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="#"
+                href="https://docs.statusflare.com"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >FAQ</a
+                >Documentation</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="#"
+                href="https://dash.statusflare.com"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Help</a
-              >
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Support</a
+                >Dashboard</a
               >
             </li>
           </ul>
@@ -37,16 +30,16 @@
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="#"
+                href="https://www.iubenda.com/terms-and-conditions/29520195"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Terms</a
+                >Terms and Conditions</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="#"
+                href="https://www.iubenda.com/privacy-policy/29520195"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Privacy</a
+                >Privacy Policy</a
               >
             </li>
           </ul>
@@ -56,23 +49,16 @@
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Facebook</a
-              >
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Linkedin</a
-              >
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
+                href="https://twitter.com/statusflare_com"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
                 >Twitter</a
+              >
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a
+                href="https://discord.com/invite/CyKwy4GG9Y"
+                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                >Discord</a
               >
             </li>
           </ul>
@@ -82,21 +68,7 @@
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Official Blog</a
-              >
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >About Us</a
-              >
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
+                href="mailto:adam@statusflare.com"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
                 >Contact</a
               >
@@ -105,10 +77,6 @@
         </div>
       </div>
     </div>
-
-    <a href="https://www.freepik.com/free-photos-vectors/background"
-      >Background vector created by freepik - www.freepik.com</a
-    >
   </footer>
 </template>
 

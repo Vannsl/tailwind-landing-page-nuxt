@@ -4,7 +4,7 @@
       class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2"
     >
       <div class="pl-4 flex items-center">
-        <logo :isStickable="true" :isSticky="isSticky" class="h-10 w-auto block" />
+        <logo :isStickable="true" :isSticky="true" class="h-10 w-auto block" />
       </div>
       <div class="block lg:hidden pr-4">
         <button
@@ -16,7 +16,7 @@
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <title>Menu</title>
+            <title>Statusflare</title>
             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
           </svg>
         </button>
@@ -51,12 +51,13 @@
           </li>
           -->
         </ul>
+        <a href="https://dash.statusflare.com" class="flex flex-wrap no-underline hover:no-underline">
         <button
           :class="navActionClassList"
-          class="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75"
+          class="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-100"
         >
           Dashboard
-        </button>
+        </button></a>
       </div>
     </div>
     <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
@@ -82,10 +83,11 @@ export default {
       return this.scrollY > 10
     },
     headerClassList() {
-      return this.isSticky ? 'bg-white shadow' : ''
+      //return this.isSticky ? 'bg-white shadow' : ''
+      return 'bg-white shadow'
     },
     navActionClassList() {
-      return this.isSticky ? 'gradient text-white' : 'bg-white text-gray-800'
+      return 'gradient text-white'
     },
     navContentClassList() {
       let classList = this.isSticky ? 'bg-white' : 'bg-gray-100'

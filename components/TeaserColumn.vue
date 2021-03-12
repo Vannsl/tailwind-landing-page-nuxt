@@ -6,7 +6,6 @@
     <div
       class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow"
     >
-      <a href="#" class="flex flex-wrap no-underline hover:no-underline">
         <p class="w-full text-gray-600 text-xs md:text-sm px-6">
           <slot name="overline" />
         </p>
@@ -16,7 +15,7 @@
         <p class="text-gray-800 text-base px-6 mb-5">
           <slot name="content" />
         </p>
-      </a>
+      
     </div>
     <div
       v-if="renderAction"

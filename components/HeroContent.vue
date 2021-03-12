@@ -15,11 +15,11 @@
           Sit back and relax, we will monitor and notify you about any issues with your website or API.
         </p>
 
-        <button
+        <!--<button
           class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
         >
           Sign up
-        </button>
+        </button>-->
       </div>
       <!--Right Col-->
       <div class="w-full md:w-3/5 py-6 pl-6 text-center">
