@@ -16,10 +16,7 @@ export default {
   name: 'LandingPage',
   components: {
     hero: Hero,
-    features: Features,
-    teasers: Teasers,
-    prices: Prices,
-    'call-to-action': CallToAction
+    features: Features
   }
 }
 </script>
