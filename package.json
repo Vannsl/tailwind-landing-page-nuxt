@@ -17,8 +17,11 @@
     "test:dev": "jest --watch"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.0",
     "nuxt": "^2.14.3",
-    "nuxt-svg-loader": "^1.2.0"
+    "nuxt-svg-loader": "^1.2.0",
+    "postcss": "^8.4.1",
+    "tailwindcss": "^2.2.19"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",

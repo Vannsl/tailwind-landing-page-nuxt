@@ -1,10 +1,34 @@
 <template>
   <footer class="bg-white">
     <div class="container mx-auto px-8">
-      <div class="w-full flex flex-col md:flex-row py-6">
-        <div class="flex-1 mb-6">
+      <div class="flex flex-row my-6">
           <logo />
+          <div class=" flex flex-row space-x-3">
+            <a href="">
+              <i class=" ">
+                <img src="~/assets/img/facebook.svg" alt="">
+              </i>
+            </a>
+            <a href="">
+              <i>
+                 <img src="~/assets/img/twitter.svg" alt="">
+              </i>
+            </a>
+            <a href="">
+              <i>
+                <img src="~/assets/img/instagram.svg" alt="">
+              </i>
+            </a>
+            <a href="">
+              <i>
+                <img src="~/assets/img/linkedin.svg" alt="">
+              </i>
+            </a>
+
+          </div>
         </div>
+      <div class="w-full flex flex-col md:flex-row py-6">
+        
 
         <div class="flex-1">
           <p class="uppercase text-gray-500 md:mb-6">Links</p>
