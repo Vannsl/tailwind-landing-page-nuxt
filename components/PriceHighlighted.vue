@@ -34,6 +34,7 @@
             First Name
           </label>
           <input
+          required
             class="
               appearance-none
               block
@@ -51,7 +52,7 @@
             type="text"
             placeholder="Jane"
           />
-          <p class="text-red-500 text-xs italic">Please fill out this field.</p>
+          
         </div>
 
         <div class="my-5 px-5 w-full overflow-hidden xl:my-4 xl:px-4 xl:w-1/2">
@@ -69,6 +70,7 @@
             Last Name
           </label>
           <input
+          required
             class="
               appearance-none
               block
@@ -86,6 +88,7 @@
             type="text"
             placeholder="Doe"
           />
+           
         </div>
 
         <div class="my-5 px-5 w-full overflow-hidden xl:my-4 xl:px-4 xl:w-1/2">
@@ -103,6 +106,7 @@
             E-Mail Address
           </label>
           <input
+          required
             class="
               appearance-none
               block
@@ -120,6 +124,7 @@
             type="text"
             placeholder="email@something.com"
           />
+           
         </div>
 
         <div class="my-5 px-5 w-full overflow-hidden xl:my-4 xl:px-4 xl:w-1/2">
@@ -137,6 +142,7 @@
             Phone
           </label>
           <input
+          required
             class="
               appearance-none
               block
@@ -154,6 +160,7 @@
             type="text"
             placeholder="+355 xx xxxx xxx"
           />
+          
         </div>
       <div class=" my-5 px-5 w-full overflow-hidden xl:my-4 xl:px-4 xl:w-full">
         <label class="block
@@ -165,8 +172,13 @@
 </label>
       <select id="vehicle_id" name="vehicle_id" class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none  sm:text-sm" @change="changeCategory">
         <option value="">Please Select One</option>
-        <option value="1" data-val="1">option 1</option>
-        <option value="2" data-val="2">option 2</option>
+        <option value="1" data-val="1">Machine Learning</option>
+        <option value="2" data-val="2">Web Development</option>
+        <option value="1" data-val="1">AR/VR</option>
+        <option value="2" data-val="2">Low Level Algorithms</option>
+        <option value="1" data-val="1">Full Stack Developer</option>
+        <option value="2" data-val="2">Dev OPS Engineering</option>
+        <option value="1" data-val="1">Linux</option>
       </select>
       </div>
         <div class="my-5 px-5 w-full overflow-hidden xl:my-4 xl:px-4 xl:w-full">
@@ -212,6 +224,8 @@
           Visit Us
         </button>
         <button
+        type="submit"
+        value="Submit"
           class="
             
             md:mx-2
@@ -238,5 +252,6 @@ import priceMixin from '@/mixins/price'
 export default {
   name: 'PriceHighlighted',
   mixins: [priceMixin],
+  
 }
 </script>
