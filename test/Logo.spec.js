@@ -39,7 +39,6 @@ describe('Check isSticky Props', () => {
 // Check computed function directly from the component
 describe('Check classList computed', () => {
   it("If isStickable is false, must return 'text-orange-600'", () => {
-    console.log(Logo.computed.classList)
     const assertion = Logo.computed.classList.call({ isStickable: false })
     expect(assertion).toBe('text-orange-600')
   })
